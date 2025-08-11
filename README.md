@@ -1,7 +1,11 @@
 # Conversor de sistemas de numeracion
+
  Universidad Provincial de Córdoba - UPC
+
  Alumno: Santiago Elias Marranti
+ 
  Fecha: 06/08/2025
+ 
  Profesor: Narciso Perez
  
 # Actividad
