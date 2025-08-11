@@ -7,6 +7,7 @@
 # Actividad
  Codificar en Python los algoritmos de conversión de binario a decimal, de decimal a binario, conversión de números decimales, cálculo de complemento.
 
+# Sobre el programa
 Este programa tiene una interfaz por consola que permite que el usuario pueda acceder a las distintas funcionalidades que pide la actividad. Los pasajes a través de los distintos sistemas de representacion estan escritos respetando los pasos y reglas (algoritmo) enseñado en clase.
 
 # Decimal a Binario
