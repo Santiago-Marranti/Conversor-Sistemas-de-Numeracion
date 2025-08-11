@@ -2,11 +2,11 @@
 
  Universidad Provincial de Córdoba - UPC
 
+ Profesor: Narciso Perez
+
  Alumno: Santiago Elias Marranti
  
  Fecha: 06/08/2025
- 
- Profesor: Narciso Perez
  
 # Actividad
  Codificar en Python los algoritmos de conversión de binario a decimal, de decimal a binario, conversión de números decimales, cálculo de complemento.
