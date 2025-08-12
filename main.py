@@ -10,12 +10,12 @@ TablaOctal = ('000', '0',
 run = True;
 
 def menu():
-    print("Menu del conversor: ");
+    print("<< Conversor de Sistemas de Numeración - Santiago Marranti >> \n");
     print("1. Conversor de binario a decimal.");
     print("2. Conversor de decimal a binario.");
     print("3. Conversión de números decimales.");
     print("4. Cálculo de complemento.");
-    print("0. Salir.")
+    print("0. Salir.\n")
 
     return int(input("Opcion> "));
 
@@ -34,7 +34,7 @@ def binarioDecimal(bin):
         # Se suma iteraccion a iteraccion.
         decimal += bit * (2 ** i);
 
-    return bin;
+    return decimal;
 
 
 def decimalBinario(decimal):
@@ -52,10 +52,11 @@ def decimalBinario(decimal):
         # avanzo obteniendo el cociente y reingresandolo a una division por 2.
         cociente //= 2;
 
-        # una vez obtengo el binario, que esta al revés, aplico la regla del pasaje que dice
-        # que se debe ordenar del ultimo resto obtenido al primero obtenido (11001 -> 10011)
-        # Aca se usa un slice.
-        bin = bin[::-1];
+    # una vez obtengo el binario, que esta al revés, aplico la regla del pasaje que dice
+    # que se debe ordenar del ultimo resto obtenido al primero obtenido (11001 -> 10011)
+    # Aca se usa un slice.
+    bin = bin[::-1];
+    
     return bin;
 
 def decimalHexadecimal(decimal):
